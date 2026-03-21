@@ -142,6 +142,7 @@
                     <div class="tab" onclick="loadCat('nightmare')">NIGHTMARE</div>
                     <div class="tab" onclick="loadCat('secret')">SECRET</div>
                     <div class="tab" onclick="loadCat('items')">ITEMS</div>
+                    <div class="tab" onclick="loadCat('ARG')">ARG</div>
                     <div style="margin-left: auto; cursor:pointer" onclick="closeCatalog()">✕</div>
                 </div>
                 <div class="catalog-grid" id="catGrid"></div>
@@ -164,14 +165,14 @@
     { name: "Oblivian Saga", val: 12500, sval: "O/C", cat: "cosmic", img: "https://i.ibb.co.com/jvLjwfvr/07e5ca17-9868-43ca-916a-09f81ecb16e1.png", demand: "9/10", stability: "stable" },
     { name: "Militia Warrior Bonnie", val: 11000, sval: "O/C", cat: "cosmic", img: "https://i.ibb.co.com/n8QkVMn3/image-removebg-preview-23.png", demand: "6/10", stability: "unstable" },
 
-    { name: "Tarnished Spring Bonnie", val: 200, sval: 2000, cat: "secret", img: "https://i.ibb.co.com/Zp11WDNs/Tarnished-Spring-Bonnie.webp", demand: "10/10", stability: "stable" },
-    { name: "Withered Bonnie", val: 300, sval: 1100, cat: "secret", img: "https://i.ibb.co.com/ycFTH60W/Withered-Bonnie.webp", demand: "3/10", stability: "falling" },
+    { name: "Tarnished Spring Bonnie", val: 100, sval: 2000, cat: "secret", img: "https://i.ibb.co.com/Zp11WDNs/Tarnished-Spring-Bonnie.webp", demand: "10/10", stability: "stable" },
+    { name: "Withered Bonnie", val: 100, sval: 1100, cat: "secret", img: "https://i.ibb.co.com/ycFTH60W/Withered-Bonnie.webp", demand: "3/10", stability: "falling" },
     { name: "Plane Boy", val: 600, sval: "O/C", cat: "secret", img: "https://i.ibb.co.com/QF02L6p8/Plane-Boy.webp", demand: "4/10", stability: "stable" },
     { name: "Endo 02", val: 500, sval: 9000, cat: "secret", img: "https://i.ibb.co.com/Kjrqy6Zn/Endo-02.webp", demand: "6.5/10", stability: "rising" },
     { name: "Patriot Freddy", val: 250, sval: 9500, cat: "secret", img: "https://i.ibb.co.com/8gqKzb9S/Patriot-Freddy.webp", demand: "6/10", stability: "stable" },
     { name: "Abyssal Foxy", val: 200, sval: 1400, cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-04232e93-55f9-4c56-8d96-c040dc802764.webp", demand: "8/10", stability: "stable" },
     { name: "Rocketter Mangle", val: 1500, sval: "O/C", cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-65a70126-4154-4806-9a04-b99d28b0050e.webp", demand: "7/10", stability: "rising" },
-    { name: "Phantom Puppet", val: 2200, sval: 5600, cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-e6efaeae-4f43-4c38-8e3e-275ae5722270.webp", demand: "7/10", stability: "stable" },
+    { name: "Phantom Puppet", val: 400, sval: 5600, cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-e6efaeae-4f43-4c38-8e3e-275ae5722270.webp", demand: "7/10", stability: "stable" },
     { name: "Gamer Girl Freddy", val: 100, sval: 500, cat: "secret", img: "https://i.ibb.co.com/GQ6GR59q/Untitled-21.png", demand: "9/10", stability: "stable" },
     { name: "Golden Withered Freddy", val: 300, sval: 4500, cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-7a6dd676-8790-4afb-81f3-9e345dee65bb.webp", demand: "9/10", stability: "unstable" },
 
@@ -188,10 +189,12 @@
    { name: "Cupcake Cone", val: 500, sval: "O/C", cat: "nightmare", img: "https://i.ibb.co.com/6cCcYTFQ/Screenshot-2026-02-25-223659.png" },
    { name: "Springtrap", val: "O/C", sval: "O/C", cat: "nightmare", img: "https://i.ibb.co.com/pvh1s71M/Springtrap.webp" },
    { name: "Scrap Bomber Puppet", val: 100, sval: 450, cat: "nightmare", img: "https://i.ibb.co.com/WNDjMfcT/image-removebg-preview-21.png" },
-   { name: "Shadow Chica", val: 2000, sval: "O/C", cat: "nightmare", img: "https://i.ibb.co.com/tPkJMZtq/download-2.png" },
+   { name: "Shadow Chica", val: 1000, sval: "O/C", cat: "nightmare", img: "https://i.ibb.co.com/tPkJMZtq/download-2.png" },
    { name: "Clover Hosted Bonnie", val: 4000, sval: "O/C", cat: "nightmare", img: "https://i.ibb.co.com/BHbY713V/aa810e0c-a1b7-42de-aeed-f86e027e01ee-removebg-preview.png"},
    { name: "Code Synced Chica", val: 200, sval: 6500, cat: "nightmare", img: "https://i.ibb.co.com/Sw6jYwGh/Untitled-25.png" },
    { name: "Death Bringer Freddy", val: 900, sval: 2000, cat: "nightmare", img: "https://i.ibb.co.com/ZpkJXPw8/Untitled-18.png" },
+   { name: "Flipside Scott", val: 250, sval: 7500, cat: "nightmare", img: "https://i.ibb.co.com/RT6jWjYH/Untitled-38.png" },
+   { name: "Demon Bonnie", val: 250, sval: 1500, cat: "nightmare", img: "https://i.ibb.co.com/PSfsjYZ/152f8979-4656-4db8-b1a6-8d532fc8e855.png"},
     
     { name: "Rockin Bonnie", val: 500, sval: "O/C", cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-13466f8c-dc64-463f-a30c-5c7ef5ae6551.webp", demand: "3/10", stability: "stable" },
     { name: "Seven Seas Foxy", val: 600, sval: 3500, cat: "secret", img: "https://cdn.phototourl.com/uploads/2026-03-19-469de9c9-2f27-49c3-9cbd-53586e964e10.webp", demand: "6/10", stability: "rising" },
@@ -212,9 +215,13 @@
     { name: "Spring Bonnie", val: 300, sval: 9000, cat: "secret", img: "https://i.ibb.co.com/20nhHnYV/Spring-Bonnie.webp", demand: "4/10", stability: "stable" },
     { name: "Sand Boy", val: 300, sval: 3100, cat: "secret", img: "https://i.ibb.co.com/HTCwcNft/no-Filter.png", demand: "5.5/10", stability: "stable" },
     { name: "Endo", val: 10, sval: 600, cat: "secret", img: "https://i.ibb.co.com/sJK4QtFN/Endo.webp", demand: "High", stability: "stable" },
-  
+    { name: "Scott", val: 100, sval: 3500, cat: "secret", img: "https://i.ibb.co.com/Ngw2RXQd/Scott.webp",  demand: "High", stability: "stable" },
+    { name: "Mismatched Toys", val: 100, sval: 900, cat: "secret", img: "https://i.ibb.co.com/R4BpM6bc/Untitled-58.png", demand: "High", stability: "stable" },
+    { name: "Follow Me", val: 100, sval: 300, cat: "secret", img: "https://i.ibb.co.com/TBsjjQCT/Untitled-60.png",  demand: "High", stability: "stable" },
+    { name: "System Error Bonnie", val: 100, sval: 400, cat: "secret", img: "https://i.ibb.co.com/whtTqG4b/bcca8a01-f43c-4a46-9316-9a606fd1a628.png",  demand: "High", stability: "stable" },
 
-   
+    { name: "Phantom Bonnie", val: "O/C", sval: "O/C", cat: "ARG", img: "https://i.ibb.co.com/HDryFRkr/Untitled-2026-03-18-T184129-254.png",  demand: "High", stability: "stable" },
+
     { name: "Premium Pass", val: 1000, cat: "items", img: "https://cdn.phototourl.com/uploads/2026-03-19-f66b8559-00db-4c02-b8fd-eca2a8e3661d.webp", demand: "10/10", stability: "stable" },
     { name: "VIP", val: 1000, cat: "items", img: "https://cdn.phototourl.com/uploads/2026-03-19-92f6239f-be8f-4315-81b9-4cae3c1165e3.webp", demand: "9/10", stability: "stable" }
 ];
@@ -274,8 +281,8 @@
             else {
                 const r = vR / (vL || 1);
                 if (r >= 0.9 && r <= 1.1) { status.innerText = "FAIR TRADE"; status.style.color = "#fff"; }
-                else if (r > 1.1) { status.innerText = "BIG WIN"; status.style.color = "var(--win)"; }
-                else { status.innerText = "BIG LOSS"; status.style.color = "var(--loss)"; }
+                else if (r > 1.1) { status.innerText = "WIN"; status.style.color = "var(--win)"; }
+                else { status.innerText = "LOSE"; status.style.color = "var(--loss)"; }
             }
         }
     </script>
